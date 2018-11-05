@@ -1,4 +1,12 @@
 /*
+ * Name: Ng Wen Jie Dalton Prescott
+ * Admin Number: 1804317
+ * Class: 1A/22
+ */
+
+
+
+/*
  *   ___      _______  _______  _______     _______  _______  _______  __   __  _______ 
  *  |   |    |   _   ||       ||       |   |       ||       ||       ||  | |  ||       |
  *  |   |    |  |_|  ||_     _||   _   |   |  _____||    ___||_     _||  | |  ||    _  |
@@ -228,7 +236,16 @@ Webfont: Lato-Black */@font-face {
 
 /* End of Lato Fonts */
 
-/* Setting up the Body Tags etc,*/
+/*
+ *   __   __  _______  ___   __    _    _______  _______  _______  _______ 
+ *  |  |_|  ||   _   ||   | |  |  | |  |       ||   _   ||       ||       |
+ *  |       ||  |_|  ||   | |   |_| |  |_     _||  |_|  ||    ___||  _____|
+ *  |       ||       ||   | |       |    |   |  |       ||   | __ | |_____ 
+ *  |       ||       ||   | |  _    |    |   |  |       ||   ||  ||_____  |
+ *  | ||_|| ||   _   ||   | | | |   |    |   |  |   _   ||   |_| | _____| |
+ *  |_|   |_||__| |__||___| |_|  |__|    |___|  |__| |__||_______||_______|
+ *
+ */
 
 strong { 
 	font-family: "LatoWebHeavy", Helvetica, sans-serif;
@@ -403,6 +420,9 @@ footer a:hover {
 .size60{ font-size: 60px; }
 .size72{ font-size: 72px; }
 .size90{ font-size: 90px; }
+/* End of Main Tags */
+
+
 
 /*	Top Nav Bar
  *  - Will Float at the top of all pages.
@@ -473,13 +493,15 @@ footer a:hover {
     font-weight: bold;
 }
 
-/* Universal Elements */
-
-/* Footer Archive
-.footerArchive {
-38A4DB
-}*/
-
+/*
+ *   __   __  __    _  ___   __   __  _______  ______    _______  _______  ___     
+ *  |  | |  ||  |  | ||   | |  | |  ||       ||    _ |  |       ||   _   ||   |    
+ *  |  | |  ||   |_| ||   | |  |_|  ||    ___||   | ||  |  _____||  |_|  ||   |    
+ *  |  |_|  ||       ||   | |       ||   |___ |   |_||_ | |_____ |       ||   |    
+ *  |       ||  _    ||   | |       ||    ___||    __  ||_____  ||       ||   |___ 
+ *  |       || | |   ||   |  |     | |   |___ |   |  | | _____| ||   _   ||       |
+ *  |_______||_|  |__||___|   |___|  |_______||___|  |_||_______||__| |__||_______|
+ */
 
 /* Main Light Blue Button*/
 .blueButton {
@@ -504,6 +526,7 @@ footer a:hover {
     -webkit-transform: scale(1.05);
 }
 
+/* Photo Credit Button*/
 .photoCreditButton {
     background-color: #222222;
     color: white;
@@ -526,9 +549,24 @@ footer a:hover {
     -webkit-transform: scale(1.05);
 }
 
+.underConstruction {
+    background-color: #222222;
+    padding-top: 0;
+    height: 100vh;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
 
-/*color: #42BFFE;*/
-
+.underConstruction message {
+    margin: 0;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
 
 /*
  *   __   __  _______  __   __  _______        _______  _______  _______  _______ 
@@ -605,7 +643,6 @@ footer a:hover {
 }
 
 /* Home Section 2 */
-
 .homeSection2 {
     background-color: #222222;
     padding-top: 0;
@@ -729,7 +766,6 @@ footer a:hover {
 .homeSection4 p {
     color: white;
     text-align: center;
-    /*margin-top: -2%;*/ /* Get the text closer to the title on the y axis */
     font-size: 24;
     font-family: LatoWebLight, Helvetica, sans-serif;
     font-weight: normal;
@@ -766,6 +802,17 @@ footer a:hover {
     color: #38A4DB;
 }
 
+/*
+ *   _______  _______  _______  _______    _______  _______  _______  _______ 
+ *  |   _   ||       ||       ||       |  |       ||   _   ||       ||       |
+ *  |  |_|  ||    _  ||    _  ||  _____|  |    _  ||  |_|  ||    ___||    ___|
+ *  |       ||   |_| ||   |_| || |_____   |   |_| ||       ||   | __ |   |___ 
+ *  |       ||    ___||    ___||_____  |  |    ___||       ||   ||  ||    ___|
+ *  |   _   ||   |    |   |     _____| |  |   |    |   _   ||   |_| ||   |___ 
+ *  |__| |__||___|    |___|    |_______|  |___|    |__| |__||_______||_______|
+ *
+ */
+
 
 /* Apps Page Home Section 1 */
 
@@ -797,6 +844,9 @@ footer a:hover {
     display: block;
     background-size: cover;
     background-position: top;
+}
+.appsSection1 .photoCreditButton {
+    margin-bottom: 3.5%;
 }
 
 .appsSection1 feature {
@@ -894,6 +944,10 @@ footer a:hover {
     background-position: top;
 }
 
+.appsSection1 .photoCreditButton {
+    margin-bottom: 3.5%;
+}
+
 .appsSection2 feature {
     margin: 0;
     min-width: 60vw;
@@ -956,6 +1010,34 @@ footer a:hover {
     height: auto;
 }
 
+/*
+ *   _______  _______  _______  _______    ______   _______  _______  _______  ___   ___      _______    _______  _______  _______  _______ 
+ *  |   _   ||       ||       ||       |  |      | |       ||       ||   _   ||   | |   |    |       |  |       ||   _   ||       ||       |
+ *  |  |_|  ||    _  ||    _  ||  _____|  |  _    ||    ___||_     _||  |_|  ||   | |   |    |  _____|  |    _  ||  |_|  ||    ___||    ___|
+ *  |       ||   |_| ||   |_| || |_____   | | |   ||   |___   |   |  |       ||   | |   |    | |_____   |   |_| ||       ||   | __ |   |___ 
+ *  |       ||    ___||    ___||_____  |  | |_|   ||    ___|  |   |  |       ||   | |   |___ |_____  |  |    ___||       ||   ||  ||    ___|
+ *  |   _   ||   |    |   |     _____| |  |       ||   |___   |   |  |   _   ||   | |       | _____| |  |   |    |   _   ||   |_| ||   |___ 
+ *  |__| |__||___|    |___|    |_______|  |______| |_______|  |___|  |__| |__||___| |_______||_______|  |___|    |__| |__||_______||_______|
+ *  
+ */
+
+.appsDetails {
+    background-image: url("images/apps/appsSection1Bg.png");
+
+    background-color: #222222;
+    padding-top: 0;
+    height: 100vh;
+    right: 0;
+    left: 0;
+
+    position: relative;
+    
+    /* Parallax Background Image */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 
 
