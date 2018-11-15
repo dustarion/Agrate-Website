@@ -460,7 +460,7 @@ footer a:hover {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 24px;
-    font-family: LatoWebHairline, Helvetica, sans-serif;
+    font-family: LatoWebLight, Helvetica, sans-serif;
     font-weight: lighter;
     letter-spacing: 3px;
 }
@@ -546,6 +546,29 @@ footer a:hover {
 
 .photoCreditButton:hover {
     color: #FFD700;
+    -webkit-transform: scale(1.05);
+}
+
+/* Github Button*/
+.githubButton {
+    /*background-color: #222222;*/
+    /*background-color: #42BFFE;*/
+    background-color: clear;
+    color: #42BFFE;
+    text-decoration: none;
+    padding: 4px 6px;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    font-family: "LatoWebMedium", Helvetica, sans-serif;
+    font-weight: normal;
+    position: absolute;
+    font-size: 20px;
+    line-height: 1.2;
+    border-radius: 15px;
+}
+
+.githubButton:hover {
+    backgroun-color: #38A4DB;
     -webkit-transform: scale(1.05);
 }
 
@@ -774,7 +797,7 @@ footer a:hover {
 
 .homeSection4 h3 {
     text-align: center;
-    font-family: "LatoWebMedium";
+    font-family: LatoWebMedium, Helvetica, sans-serif;
 }
 
 .homeSection4 leftContact {
@@ -812,7 +835,6 @@ footer a:hover {
  *  |__| |__||___|    |___|    |_______|  |___|    |__| |__||_______||_______|
  *
  */
-
 
 /* Apps Page Home Section 1 */
 
@@ -931,6 +953,27 @@ footer a:hover {
     background-position: center;
 }
 
+
+/* AppsLabs Page Section 2 */
+
+.appsSection2 {
+    background-image: url("images/apps/appsSection2Bg.png");
+
+    background-color: #222222;
+    padding-top: 0;
+    height: 100vh;
+    right: 0;
+    left: 0;
+
+    position: relative;
+    
+    /* Parallax Background Image */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .appsSection2 gradientFade {
     background-image: linear-gradient(
         rgba(34, 34, 34, 1),
@@ -944,7 +987,7 @@ footer a:hover {
     background-position: top;
 }
 
-.appsSection1 .photoCreditButton {
+.appsSection2 .photoCreditButton {
     margin-bottom: 3.5%;
 }
 
@@ -1038,6 +1081,327 @@ footer a:hover {
     background-size: cover;
     background-position: center;
 }
+
+.appsDetails gradientFade {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0.1),
+        rgba(34, 34, 34, 0.5),
+        rgba(34, 34, 34, 1));
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    background-position: top;
+}
+.appsDetails .photoCreditButton {
+    margin-bottom: 3.5%;
+}
+
+.appsDetails .githubButton{
+    /*margin-bottom: 3.5%;*/
+    clear: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.appsDetails feature {
+    margin: 0;
+    min-width: 60vw;
+    position: absolute;
+    text-align: center;
+
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.appsDetails mainTitle {
+    float: right;
+    color: white;
+    text-align: left;
+
+    text-decoration: none;
+    font-size: 72px;
+    font-family: LatoWebLight, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 0;
+    width: auto;
+    padding-right: auto;
+
+    top: 50%;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.appsDetails mainTitle h3 {
+    margin: 0;
+    /*float: left;
+    margin-left: 5%;*/
+
+    float: left;
+    bottom: 0;
+    margin-left: 5%;
+    min-height: 75px;
+    height: auto;
+
+}
+
+.appsDetails mainTitle p {
+    font-family: "LatoWeb", Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+
+    clear: left;
+    margin-left: 5%;
+    padding-top: 5%;
+}
+
+/* App Feature */
+.appsDetails appFeature {
+    float: left;
+    /*top: 50%;*/
+    margin:0vw;
+    margin-left: 10%;
+}
+
+.appsDetails img {
+
+    float: right;
+    /*top: 50%;*/
+    margin:0vw;
+    width: 100%;
+    padding-left: auto;
+}
+
+.appsDetails appIcon img {
+    float: left;
+    bottom: 0;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 20%;
+    min-width: 75px;
+    min-height: 75px;
+    height: auto;
+}
+
+/*
+ *   _______  _______  _______  _______  ___      _______  _______  _______    _______  _______  _______  _______ 
+ *  |   _   ||       ||       ||       ||   |    |   _   ||  _    ||       |  |       ||   _   ||       ||       |
+ *  |  |_|  ||    _  ||    _  ||  _____||   |    |  |_|  || |_|   ||  _____|  |    _  ||  |_|  ||    ___||    ___|
+ *  |       ||   |_| ||   |_| || |_____ |   |    |       ||       || |_____   |   |_| ||       ||   | __ |   |___ 
+ *  |       ||    ___||    ___||_____  ||   |___ |       ||  _   | |_____  |  |    ___||       ||   ||  ||    ___|
+ *  |   _   ||   |    |   |     _____| ||       ||   _   || |_|   | _____| |  |   |    |   _   ||   |_| ||   |___ 
+ *  |__| |__||___|    |___|    |_______||_______||__| |__||_______||_______|  |___|    |__| |__||_______||_______|
+ *  
+ */
+
+/* AppsLabs Page Section 1 */
+
+.appsLabsSection1 {
+    background-image: url("images/appslabs/appsLabsSection1Bg.png");
+
+    background-color: #222222;
+    padding-top: 0;
+    height: 100vh;
+    right: 0;
+    left: 0;
+
+    position: relative;
+    
+    /* Parallax Background Image */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.appsLabsSection1 gradientFade {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0.6),
+        rgba(34, 34, 34, 0.4),
+        rgba(34, 34, 34, 1));
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    background-position: top;
+}
+
+.appsLabsSection1 mainTitle h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 5%;
+}
+
+.appsLabsSection1 mainTitle p {
+	margin: 0;
+	text-align: center;
+	padding-left:20%;
+	padding-right:20%;
+}
+
+.appsLabsSection1 featureHighlights {
+	margin-top: 5%;
+	text-align: center;
+	display: flex;
+}
+
+.appsLabsSection1 > featureHighlights {
+	flex: 1; /*grow*/
+}
+
+.appsLabsSection1 featureHighlights feature {
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.appsLabsSection1 featureHighlights p strong {
+	font-family: LatoWebMedium, Helvetica, sans-serif;
+	font-size: 30pt;
+}
+
+.appsLabsSection1 featureHighlights p {
+	font-size: 23pt;
+}
+
+.appsLabsSection1 featureHighlights i {
+	font-size: 200%;
+	padding-bottom: 3%;
+	text-align: center;
+	color: white;
+}
+
+.appsLabsSection1 .photoCreditButton {
+    margin-bottom: 3.5%;
+}
+
+/* AppsLabs Page Section 2 */
+
+.appsLabsSection2 {
+    background-image: url("images/appslabs/appsLabsSection2Bg.png");
+
+    background-color: #222222;
+    padding-top: 0;
+    height: auto;
+    right: 0;
+    left: 0;
+
+    position: relative;
+    
+    /* Parallax Background Image */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.appsLabsSection2 gradientFade {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 1),
+        rgba(34, 34, 34, 0.2),
+        rgba(34, 34, 34, 1));
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    background-position: top;
+}
+
+.appsLabsSection2 .photoCreditButton {
+    margin-bottom: 0%;
+}
+
+.appsLabsSection2 mainTitle h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 5%;
+}
+
+.appsLabsSection2 mainTitle h1 highlight {
+	font-family: LatoWebLight, Helvetica, sans-serif; 
+}
+
+/* Apps Labs Pricing Table */
+
+.appsLabsSection2 pricingTable {
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+
+.appsLabsSection2 .columns {
+    float: left;
+    width: 33.3%;
+    padding: 3%;
+}
+
+.appsLabsSection2 .price {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.appsLabsSection2 .price i {
+    color: #FFD700;
+}
+
+.appsLabsSection2 .price:hover {
+    box-shadow: 0px 0px 100px 0px #FFD700;
+    -webkit-transform: scale(1.05);
+}
+
+.appsLabsSection2 .price .header {
+    background-color: #222222;
+    color: #FFD700;
+    font-size: 25px;
+    font-family: "LatoWebHeavy", Helvetica, sans-serif;
+}
+
+.appsLabsSection2 .price li {
+    padding: 20px;
+    text-align: center;
+    background-color: #222222;
+    color: white;
+}
+
+.appsLabsSection2 .price .grey {
+    background-color: #222222;
+    font-size: 70px;
+    font-family: "LatoWebHeavy", Helvetica, sans-serif;
+}
+
+.appsLabsSection2 .button {
+    background-color: #42BFFE;
+    border: none;
+    border-radius: 35px;
+    font-family: "LatoWebHeavy", Helvetica, sans-serif;
+    color: white;
+    padding: 10px 10%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.appsLabsSection2 money {
+    font-size: 22pt;
+    font-family: LatoWeb, Helvetica, sans-serif;
+}
+
+.appsLabsSection2 monthly {
+    font-size: 20pt;
+    font-family: LatoWeb, Helvetica, sans-serif;
+    color: #9B9B9B;
+}
+
+
 
 
 
