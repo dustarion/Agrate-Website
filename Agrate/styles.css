@@ -253,7 +253,7 @@ strong {
 }
 
 /* Main Title, Yellow Colour */
-highlight {
+.highlight {
 	font-family: "LatoWebHeavy", Helvetica, sans-serif;
 	font-weight: bolder;
 	color: #FFD700;
@@ -453,8 +453,8 @@ footer a:hover {
     z-index: 10
 }
 
-.topnav b {
-	float: left;
+.topnav #logo {
+    float: left;
     color: black;
     text-align: left;
     padding: 14px 16px;
@@ -1401,12 +1401,111 @@ footer a:hover {
     color: #9B9B9B;
 }
 
+/*
+ *   _______  ___      _______  _______    _______  _______  _______  _______ 
+ *  |  _    ||   |    |       ||       |  |       ||   _   ||       ||       |
+ *  | |_|   ||   |    |   _   ||    ___|  |    _  ||  |_|  ||    ___||    ___|
+ *  |       ||   |    |  | |  ||   | __   |   |_| ||       ||   | __ |   |___ 
+ *  |  _   | |   |___ |  |_|  ||   ||  |  |    ___||       ||   ||  ||    ___|
+ *  | |_|   ||       ||       ||   |_| |  |   |    |   _   ||   |_| ||   |___ 
+ *  |_______||_______||_______||_______|  |___|    |__| |__||_______||_______|
+ *  
+ */
+
+.blog {
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.blogSection {
+    background-color: #222222;
+    float: left;
+    width: 75%;
+    padding-bottom: 5%;
+}
 
 
+/* Add a card effect for articles */
+.blogArticle {
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
 
+    box-shadow: 0px 0px 40px #858585;
+    border-radius: 8px;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+}
 
+.blogArticle img {
+    width: 100%;
+    border-radius: 8px;
+}
 
+.blogArticle figure {
+    margin: 0;
+}
 
+/*
+.blogArticle:hover {
+    /box-shadow: 0px 0px 100px 0px #FFD700;
+    -webkit-transform: scale(1.05);
+}*/
+
+.blogArticle h2 {
+    color: black;
+    margin: 0;
+    padding: 2%;
+}
+
+.blogArticle time {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: LatoWeb, Helvetica, sans-serif;
+}
+
+.blogArticle p {
+    color: black;
+    margin: 0;
+    padding: 2%;
+}
+
+.blog aside {
+    position: sticky;
+    background-color: #222222;
+    float: left;
+    width: 22%;
+    padding-bottom: 5%;
+    padding-right: 3%;
+}
+
+.blog aside h1 {
+    margin-top: 0;
+}
+
+.blog hr {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.blog aside a {
+    font-family: "LatoWebLight", Helvetica, sans-serif;
+    color: #42BFFE;
+    text-decoration: none;
+    margin-bottom: 5%;
+    display: table;
+}
+
+.blog aside a:hover {
+    color: #38A4DB;
+}
+
+.blog aside a:visited {
+    color: #FFD700;
+}
 
 
 
