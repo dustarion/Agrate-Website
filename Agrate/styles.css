@@ -457,7 +457,7 @@ footer a:hover {
     float: left;
     color: black;
     text-align: left;
-    padding: 14px 16px;
+    padding: 15px 16px;
     text-decoration: none;
     font-size: 24px;
     font-family: LatoWebLight, Helvetica, sans-serif;
@@ -1473,7 +1473,6 @@ footer a:hover {
 }
 
 .blog aside {
-    position: sticky;
     background-color: #222222;
     float: left;
     width: 22%;
