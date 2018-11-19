@@ -581,7 +581,7 @@ footer a:hover {
     text-align: center;
 }
 
-.underConstruction message {
+.underConstructionMessage {
     margin: 0;
     width: 90%;
     position: absolute;
@@ -620,7 +620,7 @@ footer a:hover {
     background-position: center;
 }
 
-.homeSection1 gradientFade {
+.homeSection1 .gradientFade {
 	background-image: linear-gradient(
 		rgba(0, 0, 0, 0),
 		rgba(34, 34, 34, 0.1),
@@ -632,7 +632,7 @@ footer a:hover {
 	background-position: top;
 }
 
-.homeSection1 feature {
+.homeSection1 .feature {
     margin: 0;
     width: 90%;
     position: absolute;
@@ -642,7 +642,7 @@ footer a:hover {
     transform: translate(-50%, -50%);
 }
 
-.homeSection1 mainTitle {
+.homeSection1 .mainTitle {
 	float: left;
     color: white;
     text-align: right;
@@ -677,7 +677,7 @@ footer a:hover {
     height: 50vh;
 }
 
-.homeSection2 mainTitle {
+.homeSection2 .mainTitle {
     float: left;
     color: white;
     text-align: left;
@@ -691,7 +691,7 @@ footer a:hover {
     margin: 0;
 }
 
-.homeSection2 subTitle {
+.homeSection2 .subTitle {
     float: left;
     color: white;
     text-align: left;
@@ -726,7 +726,7 @@ footer a:hover {
     clear: left;
 }
 
-.homeSection3 mainTitle {
+.homeSection3 .mainTitle {
     float: right;
     color: white;
     text-align: right;
@@ -740,7 +740,7 @@ footer a:hover {
     margin: 0;
 }
 
-.homeSection3 subTitle {
+.homeSection3 .subTitle {
     float: right;
     color: white;
     text-align: right;
@@ -800,7 +800,7 @@ footer a:hover {
     font-family: LatoWebMedium, Helvetica, sans-serif;
 }
 
-.homeSection4 leftContact {
+.homeSection4 .leftContact {
     float: left;
     width: 50vh;
     padding-left: 20vh;
@@ -808,7 +808,7 @@ footer a:hover {
     padding-top: 5%;
 }
 
-.homeSection4 rightContact {
+.homeSection4 .rightContact {
     float: right;
     width: 50vh;
     padding-right: 20vh;
@@ -843,7 +843,9 @@ footer a:hover {
 
     background-color: #222222;
     padding-top: 0;
-    height: 100vh;
+    height: 95vh;
+    min-height: 700px;
+    max-height: 1000px;
     right: 0;
     left: 0;
 
@@ -856,7 +858,7 @@ footer a:hover {
     background-position: center;
 }
 
-.appsSection1 gradientFade {
+.appsSection1 .gradientFade {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0),
         rgba(34, 34, 34, 0.1),
@@ -871,9 +873,11 @@ footer a:hover {
     margin-bottom: 3.5%;
 }
 
-.appsSection1 feature {
+.appsSection1 .feature {
     margin: 0;
-    min-width: 60vw;
+
+    height: 100%;
+    /*min-width: 60vw;*/
     position: absolute;
     text-align: center;
 
@@ -883,8 +887,8 @@ footer a:hover {
     transform: translate(-50%, -50%);
 }
 
-.appsSection1 mainTitle {
-    float: right;
+.appsSection1 .mainTitle {
+    float: left;
     color: white;
     text-align: left;
 
@@ -892,39 +896,41 @@ footer a:hover {
     font-size: 72px;
     font-family: LatoWebLight, Helvetica, sans-serif;
     font-weight: normal;
-    margin: 0;
-    width: auto;
-    padding-right: auto;
+    width: 50%;
 
+    position: relative;
     top: 50%;
-    position: absolute;
-    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
-.appsSection1 mainTitle h1 {
+.appsSection1 .mainTitle h1 {
     margin: 0;
     margin-left: 5%;
 }
 
 /*Home Section1 App Feature*/
-.appsSection1 appFeature {
+.appsSection1 .appFeature {
     float: left;
     /*top: 50%;*/
-    margin:0vw;
-    margin-left: 10%;
+    width: 50%;
+    margin:0%;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .appsSection1 img {
-
-    float: right;
     /*top: 50%;*/
-    margin:0vw;
+    margin:0;
     width: 100%;
     padding-left: auto;
 }
+.appsSection1 .appIcon {
+    margin: 0%;
+}
 
-.appsSection1 appIcon img {
+.appsSection1 .appIcon img {
     float: left;
     bottom: 0;
     margin-left: 5%;
@@ -955,13 +961,14 @@ footer a:hover {
 
 
 /* AppsLabs Page Section 2 */
-
 .appsSection2 {
     background-image: url("images/apps/appsSection2Bg.png");
 
     background-color: #222222;
     padding-top: 0;
-    height: 100vh;
+    height: 95vh;
+    min-height: 700px;
+    max-height: 1000px;
     right: 0;
     left: 0;
 
@@ -974,7 +981,7 @@ footer a:hover {
     background-position: center;
 }
 
-.appsSection2 gradientFade {
+.appsSection2 .gradientFade {
     background-image: linear-gradient(
         rgba(34, 34, 34, 1),
         rgba(0, 0, 0, 0),
@@ -986,14 +993,15 @@ footer a:hover {
     background-size: cover;
     background-position: top;
 }
-
 .appsSection2 .photoCreditButton {
     margin-bottom: 3.5%;
 }
 
-.appsSection2 feature {
+.appsSection2 .feature {
     margin: 0;
-    min-width: 60vw;
+
+    height: 100%;
+    /*min-width: 60vw;*/
     position: absolute;
     text-align: center;
 
@@ -1003,8 +1011,8 @@ footer a:hover {
     transform: translate(-50%, -50%);
 }
 
-.appsSection2 mainTitle {
-    float: right;
+.appsSection2 .mainTitle {
+    float: left;
     color: white;
     text-align: left;
 
@@ -1012,39 +1020,41 @@ footer a:hover {
     font-size: 72px;
     font-family: LatoWebLight, Helvetica, sans-serif;
     font-weight: normal;
-    margin: 0;
-    width: auto;
-    padding-right: auto;
+    width: 50%;
 
+    position: relative;
     top: 50%;
-    position: absolute;
-    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
-.appsSection2 mainTitle h1 {
+.appsSection2 .mainTitle h1 {
     margin: 0;
     margin-left: 5%;
 }
 
 /*Home Section1 App Feature*/
-.appsSection2 appFeature {
+.appsSection2 .appFeature {
     float: left;
     /*top: 50%;*/
-    margin:0vw;
-    margin-left: 10%;
+    width: 50%;
+    margin:0%;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .appsSection2 img {
-
-    float: right;
     /*top: 50%;*/
-    margin:0vw;
+    margin:0;
     width: 100%;
     padding-left: auto;
 }
+.appsSection2 .appIcon {
+    margin: 0%;
+}
 
-.appsSection2 appIcon img {
+.appsSection2 .appIcon img {
     float: left;
     bottom: 0;
     margin-left: 5%;
@@ -1082,7 +1092,7 @@ footer a:hover {
     background-position: center;
 }
 
-.appsDetails gradientFade {
+.appsDetails .gradientFade {
     background-image: linear-gradient(
         rgba(34, 34, 34, 0.1),
         rgba(34, 34, 34, 0.5),
@@ -1104,7 +1114,7 @@ footer a:hover {
     margin-top: 5%;
 }
 
-.appsDetails feature {
+.appsDetails .feature {
     margin: 0;
     min-width: 60vw;
     position: absolute;
@@ -1116,7 +1126,7 @@ footer a:hover {
     transform: translate(-50%, -50%);
 }
 
-.appsDetails mainTitle {
+.appsDetails .mainTitle {
     float: right;
     color: white;
     text-align: left;
@@ -1135,7 +1145,7 @@ footer a:hover {
     transform: translateY(-50%);
 }
 
-.appsDetails mainTitle h3 {
+.appsDetails .mainTitle h3 {
     margin: 0;
     /*float: left;
     margin-left: 5%;*/
@@ -1148,7 +1158,7 @@ footer a:hover {
 
 }
 
-.appsDetails mainTitle p {
+.appsDetails .mainTitle p {
     font-family: "LatoWeb", Helvetica, sans-serif;
     font-size: 24px;
     color: white;
@@ -1159,7 +1169,7 @@ footer a:hover {
 }
 
 /* App Feature */
-.appsDetails appFeature {
+.appsDetails .appFeature {
     float: left;
     /*top: 50%;*/
     margin:0vw;
@@ -1175,7 +1185,7 @@ footer a:hover {
     padding-left: auto;
 }
 
-.appsDetails appIcon img {
+.appsDetails .appIcon img {
     float: left;
     bottom: 0;
     margin-left: 5%;
@@ -1217,7 +1227,7 @@ footer a:hover {
     background-position: center;
 }
 
-.appsLabsSection1 gradientFade {
+.appsLabsSection1 .gradientFade {
     background-image: linear-gradient(
         rgba(34, 34, 34, 0.6),
         rgba(34, 34, 34, 0.4),
@@ -1229,45 +1239,45 @@ footer a:hover {
     background-position: top;
 }
 
-.appsLabsSection1 mainTitle h1 {
+.appsLabsSection1 .mainTitle h1 {
     text-align: center;
     margin: 0;
     padding-top: 5%;
 }
 
-.appsLabsSection1 mainTitle p {
+.appsLabsSection1 .mainTitle p {
 	margin: 0;
 	text-align: center;
 	padding-left:20%;
 	padding-right:20%;
 }
 
-.appsLabsSection1 featureHighlights {
+.appsLabsSection1 .featureHighlights {
 	margin-top: 5%;
 	text-align: center;
 	display: flex;
 }
 
-.appsLabsSection1 > featureHighlights {
+.appsLabsSection1 > .featureHighlights {
 	flex: 1; /*grow*/
 }
 
-.appsLabsSection1 featureHighlights feature {
+.appsLabsSection1 .featureHighlights .feature {
 	text-align: center;
 	padding-left: 5%;
 	padding-right: 5%;
 }
 
-.appsLabsSection1 featureHighlights p strong {
+.appsLabsSection1 .featureHighlights p strong {
 	font-family: LatoWebMedium, Helvetica, sans-serif;
 	font-size: 30pt;
 }
 
-.appsLabsSection1 featureHighlights p {
+.appsLabsSection1 .featureHighlights p {
 	font-size: 23pt;
 }
 
-.appsLabsSection1 featureHighlights i {
+.appsLabsSection1 .featureHighlights i {
 	font-size: 200%;
 	padding-bottom: 3%;
 	text-align: center;
@@ -1298,7 +1308,7 @@ footer a:hover {
     background-position: center;
 }
 
-.appsLabsSection2 gradientFade {
+.appsLabsSection2 .gradientFade {
     background-image: linear-gradient(
         rgba(34, 34, 34, 1),
         rgba(34, 34, 34, 0.2),
@@ -1314,19 +1324,19 @@ footer a:hover {
     margin-bottom: 0%;
 }
 
-.appsLabsSection2 mainTitle h1 {
+.appsLabsSection2 .mainTitle h1 {
     text-align: center;
     margin: 0;
     padding-top: 5%;
 }
 
-.appsLabsSection2 mainTitle h1 highlight {
+.appsLabsSection2 .mainTitle h1 .highlight {
 	font-family: LatoWebLight, Helvetica, sans-serif; 
 }
 
 /* Apps Labs Pricing Table */
 
-.appsLabsSection2 pricingTable {
+.appsLabsSection2 .pricingTable {
     margin: 0;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -1390,12 +1400,12 @@ footer a:hover {
     font-size: 18px;
 }
 
-.appsLabsSection2 money {
+.appsLabsSection2 .money {
     font-size: 22pt;
     font-family: LatoWeb, Helvetica, sans-serif;
 }
 
-.appsLabsSection2 monthly {
+.appsLabsSection2 .monthly {
     font-size: 20pt;
     font-family: LatoWeb, Helvetica, sans-serif;
     color: #9B9B9B;
@@ -1448,12 +1458,6 @@ footer a:hover {
     margin: 0;
 }
 
-/*
-.blogArticle:hover {
-    /box-shadow: 0px 0px 100px 0px #FFD700;
-    -webkit-transform: scale(1.05);
-}*/
-
 .blogArticle h2 {
     color: black;
     margin: 0;
@@ -1505,9 +1509,3 @@ footer a:hover {
 .blog aside a:visited {
     color: #FFD700;
 }
-
-
-
-
-
-
