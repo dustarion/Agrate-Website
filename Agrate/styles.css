@@ -4,237 +4,10 @@
  * Class: DISM/1A/22
  */
 
+/* Import Lato */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
 
 
-/*
- *   ___      _______  _______  _______     _______  _______  _______  __   __  _______ 
- *  |   |    |   _   ||       ||       |   |       ||       ||       ||  | |  ||       |
- *  |   |    |  |_|  ||_     _||   _   |   |  _____||    ___||_     _||  | |  ||    _  |
- *  |   |    |       |  |   |  |  | |  |   | |_____ |   |___   |   |  |  |_|  ||   |_| |
- *  |   |___ |       |  |   |  |  |_|  |   |_____  ||    ___|  |   |  |       ||    ___|
- *  |       ||   _   |  |   |  |       |    _____| ||   |___   |   |  |       ||   |    
- *  |_______||__| |__|  |___|  |_______|   |_______||_______|  |___|  |_______||___|    
- *  
- */
-
-/* Setting up Lato font */
-Webfont: Lato-Black */@font-face {
-    font-family: 'LatoWebBlack';
-    src: url('fonts/Lato-Black.eot'); /* IE9 Compat Modes */
-    src: url('fonts/Lato-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/Lato-Black.woff2') format('woff2'), /* Modern Browsers */
-         url('fonts/Lato-Black.woff') format('woff'), /* Modern Browsers */
-         url('fonts/Lato-Black.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-/* Webfont: Lato-BlackItalic */@font-face {
-    font-family: 'LatoWebBlack';
-    src: url('fonts/Lato-BlackItalic.eot'); /* IE9 Compat Modes */
-    src: url('fonts/Lato-BlackItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/Lato-BlackItalic.woff2') format('woff2'), /* Modern Browsers */
-         url('fonts/Lato-BlackItalic.woff') format('woff'), /* Modern Browsers */
-         url('fonts/Lato-BlackItalic.ttf') format('truetype');
-    font-style: italic;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-/* Webfont: Lato-Bold */@font-face {
-    font-family: 'LatoWebBold';
-    src: url('fonts/Lato-Bold.eot'); /* IE9 Compat Modes */
-    src: url('fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/Lato-Bold.woff2') format('woff2'), /* Modern Browsers */
-         url('fonts/Lato-Bold.woff') format('woff'), /* Modern Browsers */
-         url('fonts/Lato-Bold.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-/* Webfont: Lato-BoldItalic */@font-face {
-    font-family: 'LatoWebBold';
-    src: url('fonts/Lato-BoldItalic.eot'); /* IE9 Compat Modes */
-    src: url('fonts/Lato-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/Lato-BoldItalic.woff2') format('woff2'), /* Modern Browsers */
-         url('fonts/Lato-BoldItalic.woff') format('woff'), /* Modern Browsers */
-         url('fonts/Lato-BoldItalic.ttf') format('truetype');
-    font-style: italic;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-/* Webfont: Lato-Hairline */@font-face {
-    font-family: 'LatoWebHairline';
-    src: url('fonts/Lato-Hairline.eot'); /* IE9 Compat Modes */
-    src: url('fonts/Lato-Hairline.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/Lato-Hairline.woff2') format('woff2'), /* Modern Browsers */
-         url('fonts/Lato-Hairline.woff') format('woff'), /* Modern Browsers */
-         url('fonts/Lato-Hairline.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-/* Webfont: Lato-HairlineItalic */@font-face {
-    font-family: 'LatoWebHairline';
-    src: url('fonts/Lato-HairlineItalic.eot'); /* IE9 Compat Modes */
-    src: url('fonts/Lato-HairlineItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/Lato-HairlineItalic.woff2') format('woff2'), /* Modern Browsers */
-         url('fonts/Lato-HairlineItalic.woff') format('woff'), /* Modern Browsers */
-         url('fonts/Lato-HairlineItalic.ttf') format('truetype');
-    font-style: italic;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-/* Webfont: Lato-Heavy */@font-face {
-    font-family: 'LatoWebHeavy';
-    src: url('fonts/Lato-Heavy.eot'); /* IE9 Compat Modes */
-    src: url('fonts/Lato-Heavy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/Lato-Heavy.woff2') format('woff2'), /* Modern Browsers */
-         url('fonts/Lato-Heavy.woff') format('woff'), /* Modern Browsers */
-         url('fonts/Lato-Heavy.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-/* Webfont: Lato-HeavyItalic */@font-face {
-    font-family: 'LatoWebHeavy';
-    src: url('fonts/Lato-HeavyItalic.eot'); /* IE9 Compat Modes */
-    src: url('fonts/Lato-HeavyItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/Lato-HeavyItalic.woff2') format('woff2'), /* Modern Browsers */
-         url('fonts/Lato-HeavyItalic.woff') format('woff'), /* Modern Browsers */
-         url('fonts/Lato-HeavyItalic.ttf') format('truetype');
-    font-style: italic;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-/* Webfont: Lato-Italic */@font-face {
-    font-family: 'LatoWeb';
-    src: url('fonts/Lato-Italic.eot'); /* IE9 Compat Modes */
-    src: url('fonts/Lato-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/Lato-Italic.woff2') format('woff2'), /* Modern Browsers */
-         url('fonts/Lato-Italic.woff') format('woff'), /* Modern Browsers */
-         url('fonts/Lato-Italic.ttf') format('truetype');
-    font-style: italic;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-/* Webfont: Lato-Light */@font-face {
-    font-family: 'LatoWebLight';
-    src: url('fonts/Lato-Light.eot'); /* IE9 Compat Modes */
-    src: url('fonts/Lato-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/Lato-Light.woff2') format('woff2'), /* Modern Browsers */
-         url('fonts/Lato-Light.woff') format('woff'), /* Modern Browsers */
-         url('fonts/Lato-Light.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-/* Webfont: Lato-LightItalic */@font-face {
-    font-family: 'LatoWebLight';
-    src: url('fonts/Lato-LightItalic.eot'); /* IE9 Compat Modes */
-    src: url('fonts/Lato-LightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/Lato-LightItalic.woff2') format('woff2'), /* Modern Browsers */
-         url('fonts/Lato-LightItalic.woff') format('woff'), /* Modern Browsers */
-         url('fonts/Lato-LightItalic.ttf') format('truetype');
-    font-style: italic;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-/* Webfont: Lato-Medium */@font-face {
-    font-family: 'LatoWebMedium';
-    src: url('fonts/Lato-Medium.eot'); /* IE9 Compat Modes */
-    src: url('fonts/Lato-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/Lato-Medium.woff2') format('woff2'), /* Modern Browsers */
-         url('fonts/Lato-Medium.woff') format('woff'), /* Modern Browsers */
-         url('fonts/Lato-Medium.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-/* Webfont: Lato-MediumItalic */@font-face {
-    font-family: 'LatoWebMedium';
-    src: url('fonts/Lato-MediumItalic.eot'); /* IE9 Compat Modes */
-    src: url('fonts/Lato-MediumItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/Lato-MediumItalic.woff2') format('woff2'), /* Modern Browsers */
-         url('fonts/Lato-MediumItalic.woff') format('woff'), /* Modern Browsers */
-         url('fonts/Lato-MediumItalic.ttf') format('truetype');
-    font-style: italic;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-/* Webfont: Lato-Regular */@font-face {
-    font-family: 'LatoWeb';
-    src: url('fonts/Lato-Regular.eot'); /* IE9 Compat Modes */
-    src: url('fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/Lato-Regular.woff2') format('woff2'), /* Modern Browsers */
-         url('fonts/Lato-Regular.woff') format('woff'), /* Modern Browsers */
-         url('fonts/Lato-Regular.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-/* Webfont: Lato-Semibold */@font-face {
-    font-family: 'LatoWebSemibold';
-    src: url('fonts/Lato-Semibold.eot'); /* IE9 Compat Modes */
-    src: url('fonts/Lato-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/Lato-Semibold.woff2') format('woff2'), /* Modern Browsers */
-         url('fonts/Lato-Semibold.woff') format('woff'), /* Modern Browsers */
-         url('fonts/Lato-Semibold.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-/* Webfont: Lato-SemiboldItalic */@font-face {
-    font-family: 'LatoWebSemibold';
-    src: url('fonts/Lato-SemiboldItalic.eot'); /* IE9 Compat Modes */
-    src: url('fonts/Lato-SemiboldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/Lato-SemiboldItalic.woff2') format('woff2'), /* Modern Browsers */
-         url('fonts/Lato-SemiboldItalic.woff') format('woff'), /* Modern Browsers */
-         url('fonts/Lato-SemiboldItalic.ttf') format('truetype');
-    font-style: italic;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-/* Webfont: Lato-Thin */@font-face {
-    font-family: 'LatoWebThin';
-    src: url('fonts/Lato-Thin.eot'); /* IE9 Compat Modes */
-    src: url('fonts/Lato-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/Lato-Thin.woff2') format('woff2'), /* Modern Browsers */
-         url('fonts/Lato-Thin.woff') format('woff'), /* Modern Browsers */
-         url('fonts/Lato-Thin.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-/* Webfont: Lato-ThinItalic */@font-face {
-    font-family: 'LatoWebThin';
-    src: url('fonts/Lato-ThinItalic.eot'); /* IE9 Compat Modes */
-    src: url('fonts/Lato-ThinItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/Lato-ThinItalic.woff2') format('woff2'), /* Modern Browsers */
-         url('fonts/Lato-ThinItalic.woff') format('woff'), /* Modern Browsers */
-         url('fonts/Lato-ThinItalic.ttf') format('truetype');
-    font-style: italic;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-/* End of Lato Fonts */
 
 /*
  *   __   __  _______  ___   __    _    _______  _______  _______  _______ 
@@ -248,14 +21,14 @@ Webfont: Lato-Black */@font-face {
  */
 
 strong { 
-	font-family: "LatoWebHeavy", Helvetica, sans-serif;
-	font-weight: bolder;
+	font-family: "Lato", Helvetica, sans-serif;
+	font-weight: 900;
 }
 
 /* Main Title, Yellow Colour */
 .highlight {
-	font-family: "LatoWebHeavy", Helvetica, sans-serif;
-	font-weight: bolder;
+	font-family: "Lato", Helvetica, sans-serif;
+	font-weight: 900;
 	color: #FFD700;
 }
 
@@ -271,23 +44,23 @@ hr {
 }
 
 h1 {
-	font-family: "LatoWebLight", Helvetica, sans-serif;
+	font-family: "Lato", Helvetica, sans-serif;
 	font-size: 6vw;
-	font-weight: lighter;
+	font-weight: 300;
 	color: white;
     margin-bottom: 0;
 }
 
 h2 {
-	font-family: "LatoWebLight", Helvetica, sans-serif;
-	font-weight: lighter;
+	font-family: "Lato", Helvetica, sans-serif;
+	font-weight: 300;
 	font-size: 64pt;
 	color: white;
 }
 
 h3 {
-    font-family: "LatoWebMedium", Helvetica, sans-serif
-    font-weight: normal;
+    font-family: "Lato", Helvetica, sans-serif
+    font-weight: 400;
     font-size: 48;
     color: white;
 }
@@ -297,13 +70,15 @@ h3 highlight {
 }
 
 p {
-    font-family: "LatoWebLight", Helvetica, sans-serif;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
     font-size: 24;
     color: white;
 }
 
 body {
-	font-family: "LatoWebLight", Helvetica, sans-serif;
+	font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 300;
 	font-size: 24pt;
 	font-style: normal;
 	margin: 0 0 0 0;
@@ -324,7 +99,8 @@ footer {
 }
 
 footer strong {
-    font-family: "LatoWebMedium", Helvetica, sans-serif;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 700;
 }
 
 footer p {
@@ -332,7 +108,8 @@ footer p {
 }
 
 footer a {
-    font-family: "LatoWebLight", Helvetica, sans-serif;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
     color: #42BFFE;
     text-decoration: none;
 }
@@ -344,7 +121,8 @@ footer a:hover {
 .copyrightFooter {
     padding-top: 4%;
     bottom: 0;
-    font-family: "LatoWebLight", Helvetica, sans-serif;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
     font-size: 20px;
     word-spacing: 0px;
 }
@@ -357,7 +135,8 @@ footer a:hover {
 }
 
 #nav {
-	font-family: "LatoWeb", Helvetica, sans-serif;
+	font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
 	background-color: none;
 	width:150px;
 	text-align:left;
@@ -386,7 +165,8 @@ footer a:hover {
 }
 
 #main {
-	font-family: "LatoWeb", Helvetica, sans-serif;
+	font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
 	font-style: normal;
 	font-size: 1.5em;
 	color: #black;
@@ -460,8 +240,8 @@ footer a:hover {
     padding: 15px 16px;
     text-decoration: none;
     font-size: 24px;
-    font-family: LatoWebLight, Helvetica, sans-serif;
-    font-weight: lighter;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
     letter-spacing: 3px;
 }
 
@@ -472,16 +252,16 @@ footer a:hover {
     padding: 18px 20px;
     text-decoration: none;
     font-size: 20px;
-    font-family: LatoWebLight, Helvetica, sans-serif;
-    font-weight: normal;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #ddd;
     color: black;
-    font-family: LatoWebLight, Helvetica, sans-serif;
-    font-weight: normal;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
     -webkit-transform: scale(1.05);
 }
 
@@ -489,8 +269,16 @@ footer a:hover {
 .topnav a.active {
     /*background-color: #4CAF50;*/
     color: black;
-    font-family: LatoWebMedium, Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.topnav a:focus {
+    background-color: #ddd;
+    color: black;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+    -webkit-transform: scale(1.05);
 }
 
 /*
@@ -508,8 +296,8 @@ footer a:hover {
 	background-color: #42BFFE;
     border: none;
     color: white;
-    font-family: "LatoWebHeavy", Helvetica, sans-serif;
-    font-weight: bolder;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 900;
     padding: 15px 32px;
     width: 388px;
     text-align: center;
@@ -536,8 +324,8 @@ footer a:hover {
     bottom: 2.5%;
     margin-right: 2.5%;
     margin-top: 2.5%;
-    font-family: "LatoWebLight", Helvetica, sans-serif;
-    font-weight: normal;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
     position: absolute;
     font-size: 15px;
     line-height: 1.2;
@@ -559,8 +347,8 @@ footer a:hover {
     padding: 4px 6px;
     margin-right: 2.5%;
     margin-top: 2.5%;
-    font-family: "LatoWebMedium", Helvetica, sans-serif;
-    font-weight: normal;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
     position: absolute;
     font-size: 20px;
     line-height: 1.2;
@@ -649,8 +437,8 @@ footer a:hover {
 
     text-decoration: none;
     font-size: 72px;
-    font-family: LatoWebLight, Helvetica, sans-serif;
-    font-weight: normal;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
     margin: 2.5%;
 }
 
@@ -698,8 +486,8 @@ footer a:hover {
     padding-left: 0px;
     margin-top: -2%; /* Get the text closer to the title on the y axis */
     font-size: 24;
-    font-family: LatoWebLight, Helvetica, sans-serif;
-    font-weight: normal;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
 }
 
 .homeSection2 img {
@@ -747,8 +535,8 @@ footer a:hover {
     padding-right: 0px;
     margin-top: -2%; /* Get the text closer to the title on the y axis */
     font-size: 24;
-    font-family: LatoWebLight, Helvetica, sans-serif;
-    font-weight: normal;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
 }
 
 .homeSection3 img {
@@ -790,14 +578,15 @@ footer a:hover {
     color: white;
     text-align: center;
     font-size: 24;
-    font-family: LatoWebLight, Helvetica, sans-serif;
-    font-weight: normal;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
     margin: 0;
 }
 
 .homeSection4 h3 {
     text-align: center;
-    font-family: LatoWebMedium, Helvetica, sans-serif;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 700;
 }
 
 .homeSection4 .leftContact {
@@ -860,7 +649,7 @@ footer a:hover {
 
 .appsSection1 .gradientFade {
     background-image: linear-gradient(
-        rgba(0, 0, 0, 0),
+        rgba(34, 34, 34, 1),
         rgba(34, 34, 34, 0.1),
         rgba(34, 34, 34, 1));
     width: 100%;
@@ -894,8 +683,8 @@ footer a:hover {
 
     text-decoration: none;
     font-size: 72px;
-    font-family: LatoWebLight, Helvetica, sans-serif;
-    font-weight: normal;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
     width: 50%;
 
     position: relative;
@@ -984,7 +773,6 @@ footer a:hover {
 .appsSection2 .gradientFade {
     background-image: linear-gradient(
         rgba(34, 34, 34, 1),
-        rgba(0, 0, 0, 0),
         rgba(34, 34, 34, 0.1),
         rgba(34, 34, 34, 1));
     width: 100%;
@@ -1018,8 +806,8 @@ footer a:hover {
 
     text-decoration: none;
     font-size: 72px;
-    font-family: LatoWebLight, Helvetica, sans-serif;
-    font-weight: normal;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
     width: 50%;
 
     position: relative;
@@ -1133,8 +921,8 @@ footer a:hover {
 
     text-decoration: none;
     font-size: 72px;
-    font-family: LatoWebLight, Helvetica, sans-serif;
-    font-weight: normal;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
     margin: 0;
     width: auto;
     padding-right: auto;
@@ -1159,7 +947,8 @@ footer a:hover {
 }
 
 .appsDetails .mainTitle p {
-    font-family: "LatoWeb", Helvetica, sans-serif;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
     font-size: 24px;
     color: white;
 
@@ -1269,7 +1058,8 @@ footer a:hover {
 }
 
 .appsLabsSection1 .featureHighlights p strong {
-	font-family: LatoWebMedium, Helvetica, sans-serif;
+	font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 700;
 	font-size: 30pt;
 }
 
@@ -1331,7 +1121,8 @@ footer a:hover {
 }
 
 .appsLabsSection2 .mainTitle h1 .highlight {
-	font-family: LatoWebLight, Helvetica, sans-serif; 
+	font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
 }
 
 /* Apps Labs Pricing Table */
@@ -1372,7 +1163,8 @@ footer a:hover {
     background-color: #222222;
     color: #FFD700;
     font-size: 25px;
-    font-family: "LatoWebHeavy", Helvetica, sans-serif;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 900;
 }
 
 .appsLabsSection2 .price li {
@@ -1385,14 +1177,16 @@ footer a:hover {
 .appsLabsSection2 .price .grey {
     background-color: #222222;
     font-size: 70px;
-    font-family: "LatoWebHeavy", Helvetica, sans-serif;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 900;
 }
 
 .appsLabsSection2 .button {
     background-color: #42BFFE;
     border: none;
     border-radius: 35px;
-    font-family: "LatoWebHeavy", Helvetica, sans-serif;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 900;
     color: white;
     padding: 10px 10%;
     text-align: center;
@@ -1402,12 +1196,14 @@ footer a:hover {
 
 .appsLabsSection2 .money {
     font-size: 22pt;
-    font-family: LatoWeb, Helvetica, sans-serif;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
 }
 
 .appsLabsSection2 .monthly {
     font-size: 20pt;
-    font-family: LatoWeb, Helvetica, sans-serif;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
     color: #9B9B9B;
 }
 
@@ -1467,7 +1263,8 @@ footer a:hover {
 .blogArticle time {
     padding-left: 2%;
     padding-right: 2%;
-    font-family: LatoWeb, Helvetica, sans-serif;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 300;
 }
 
 .blogArticle p {
@@ -1495,7 +1292,8 @@ footer a:hover {
 }
 
 .blog aside a {
-    font-family: "LatoWebLight", Helvetica, sans-serif;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
     color: #42BFFE;
     text-decoration: none;
     margin-bottom: 5%;
