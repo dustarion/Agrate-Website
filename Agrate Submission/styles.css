@@ -1,0 +1,1309 @@
+/*
+ * Name: Ng Wen Jie Dalton Prescott
+ * Admin Number: 1804317
+ * Class: DISM/1A/22
+ */
+
+/* Import Lato */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+
+
+/*
+ *   __   __  _______  ___   __    _    _______  _______  _______  _______ 
+ *  |  |_|  ||   _   ||   | |  |  | |  |       ||   _   ||       ||       |
+ *  |       ||  |_|  ||   | |   |_| |  |_     _||  |_|  ||    ___||  _____|
+ *  |       ||       ||   | |       |    |   |  |       ||   | __ | |_____ 
+ *  |       ||       ||   | |  _    |    |   |  |       ||   ||  ||_____  |
+ *  | ||_|| ||   _   ||   | | | |   |    |   |  |   _   ||   |_| | _____| |
+ *  |_|   |_||__| |__||___| |_|  |__|    |___|  |__| |__||_______||_______|
+ *
+ */
+
+strong { 
+	font-family: "Lato", Helvetica, sans-serif;
+	font-weight: 900;
+}
+
+/* Main Title, Yellow Colour */
+.highlight {
+	font-family: "Lato", Helvetica, sans-serif;
+	font-weight: 900;
+	color: #FFD700;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 10vw;
+    width: 80vw;
+    margin-right: 10vw;
+    border-style: inset;
+    border-width: 1px;
+}
+
+h1 {
+	font-family: "Lato", Helvetica, sans-serif;
+	font-size: 6vw;
+	font-weight: 300;
+	color: #ffffff;
+    margin-bottom: 0;
+}
+
+h2 {
+	font-family: "Lato", Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 64pt;
+	color: #ffffff;
+}
+
+h3 {
+    font-family: "Lato", Helvetica, sans-serif
+    font-weight: 400;
+    font-size: 48;
+    color: #ffffff;
+}
+
+h3 highlight {
+    color: #FFD700;
+}
+
+p {
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24;
+    color: #ffffff;
+}
+
+body {
+	font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 300;
+	font-size: 24pt;
+	font-style: normal;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+    background-color: #222222;
+}
+
+/* Footer */
+footer {
+	color: #ffffff;
+	padding-bottom: 0;
+	text-align: center;
+
+    display: block;
+    clear: left;
+    clear: right;
+    word-spacing: 20px;
+}
+
+footer strong {
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+footer p {
+    font-size: 24px;
+}
+
+footer a {
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+    color: #42BFFE;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #38A4DB;
+}
+
+.copyrightFooter {
+    padding-top: 4%;
+    bottom: 0;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    word-spacing: 0px;
+}
+
+#menu {
+	position: fixed;
+	top: 0.50em;
+    left: 0;
+	
+}
+
+#nav {
+	font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+	background-color: none;
+	width:150px;
+	text-align:left;
+	font-size:1em;
+	list-style: none;
+	margin: 0 0 0 0;
+	padding: 0 20 30 20;
+	float:left;
+}
+
+#nav li {
+	float:none;
+}
+
+#nav li a:link {
+	display:block;
+	padding: 4px 5px;
+	text-decoration: none;
+	background-color: #eee;
+	color:#222;
+	
+}
+
+.large {
+	font-size: 2.2em;
+}
+
+#main {
+	font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+	font-style: normal;
+	font-size: 1.5em;
+	color: #000000;
+	background-color: #ffffff;
+	width: 840px;
+	padding: 0 40px 0 40px;
+	margin-left: 180px;
+	margin-top: auto;
+	margin-right: 0;
+}
+.waterfall {
+	font-size: 10px;
+	width:100%;
+	overflow: hidden;
+	text-shadow: 0px 0px 0px #000000;
+	color: #000;
+}
+
+.size10{ font-size: 10px; }
+.size11{ font-size: 11px; }
+.size12{ font-size: 12px; }
+.size13{ font-size: 13px; }
+.size14{ font-size: 14px; }
+.size16{ font-size: 16px; }
+.size18{ font-size: 18px; }
+.size20{ font-size: 20px; }
+.size24{ font-size: 24px; }
+.size30{ font-size: 30px; }
+.size36{ font-size: 36px; }
+.size48{ font-size: 48px; }
+.size60{ font-size: 60px; }
+.size72{ font-size: 72px; }
+.size90{ font-size: 90px; }
+/* End of Main Tags */
+
+
+
+/*	Top Nav Bar
+ *  - Will Float at the top of all pages.
+ *   _______  _______  _______    __    _  _______  __   __    _______  _______  ______   
+ *  |       ||       ||       |  |  |  | ||   _   ||  | |  |  |  _    ||   _   ||    _ |  
+ *  |_     _||   _   ||    _  |  |   |_| ||  |_|  ||  |_|  |  | |_|   ||  |_|  ||   | ||  
+ *    |   |  |  | |  ||   |_| |  |       ||       ||       |  |       ||       ||   |_||_ 
+ *    |   |  |  |_|  ||    ___|  |  _    ||       ||       |  |  _   | |       ||    __  |
+ *    |   |  |       ||   |      | | |   ||   _   | |     |   | |_|   ||   _   ||   |  | |
+ *    |___|  |_______||___|      |_|  |__||__| |__|  |___|    |_______||__| |__||___|  |_|
+ *
+ */
+
+/* Top Navigation Bar Links */
+
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+    top: 0; /* Position the navbar at the top of the page */
+    /*position: fixed;*/ /* Set the navbar to fixed position */
+	padding-right: 5%;
+    padding-left: 5%;
+    left: 0;
+    right: 0;
+    /*width: 100%;*/ /* Full width */
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    z-index: 10
+}
+
+.topnav #logo {
+    float: left;
+    color: #000000;
+    text-align: left;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.topnav a {
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: #000000;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+    -webkit-transform: scale(1.05);
+}
+
+/* Bold the font weight of the active/current link */
+.topnav a.active {
+    /*background-color: #4CAF50;*/
+    color: #000000;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.topnav a:focus {
+    background-color: #ddd;
+    color: #000000;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+    -webkit-transform: scale(1.05);
+}
+
+/*
+ *   __   __  __    _  ___   __   __  _______  ______    _______  _______  ___     
+ *  |  | |  ||  |  | ||   | |  | |  ||       ||    _ |  |       ||   _   ||   |    
+ *  |  | |  ||   |_| ||   | |  |_|  ||    ___||   | ||  |  _____||  |_|  ||   |    
+ *  |  |_|  ||       ||   | |       ||   |___ |   |_||_ | |_____ |       ||   |    
+ *  |       ||  _    ||   | |       ||    ___||    __  ||_____  ||       ||   |___ 
+ *  |       || | |   ||   |  |     | |   |___ |   |  | | _____| ||   _   ||       |
+ *  |_______||_|  |__||___|   |___|  |_______||___|  |_||_______||__| |__||_______|
+ */
+
+/* Main Light Blue Button*/
+.blueButton {
+	background-color: #42BFFE;
+    border: none;
+    color: #ffffff;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 900;
+    padding: 15px 32px;
+    width: 388px;
+    text-align: center;
+    text-decoration: none;
+	display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 35px;
+}
+
+.blueButton:hover {
+    background-color: #38A4DB;
+    -webkit-transform: scale(1.05);
+}
+
+/* Photo Credit Button*/
+.photoCreditButton {
+    background-color: #222222;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 4px 6px;
+    right: 0;
+    bottom: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+    position: absolute;
+    font-size: 15px;
+    line-height: 1.2;
+    border-radius: 3px
+}
+
+.photoCreditButton:hover {
+    color: #FFD700;
+    -webkit-transform: scale(1.05);
+}
+
+/* Github Button*/
+.githubButton {
+    /*background-color: #222222;*/
+    /*background-color: #42BFFE;*/
+    background-color: clear;
+    color: #42BFFE;
+    text-decoration: none;
+    padding: 4px 6px;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+    position: absolute;
+    font-size: 20px;
+    line-height: 1.2;
+    border-radius: 15px;
+}
+
+.githubButton:hover {
+    backgroun-color: #38A4DB;
+    -webkit-transform: scale(1.05);
+}
+
+.underConstruction {
+    background-color: #222222;
+    padding-top: 0;
+    height: 100vh;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.underConstructionMessage {
+    margin: 0;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/*
+ *   __   __  _______  __   __  _______        _______  _______  _______  _______ 
+ *  |  | |  ||       ||  |_|  ||       |      |       ||   _   ||       ||       |
+ *  |  |_|  ||   _   ||       ||    ___|      |    _  ||  |_|  ||    ___||    ___|
+ *  |       ||  | |  ||       ||   |___       |   |_| ||       ||   | __ |   |___ 
+ *  |       ||  |_|  ||       ||    ___|      |    ___||       ||   ||  ||    ___|
+ *  |   _   ||       || ||_|| ||   |___       |   |    |   _   ||   |_| ||   |___ 
+ *  |__| |__||_______||_|   |_||_______|      |___|    |__| |__||_______||_______|
+ *
+ */
+
+/* HOME SECTION 1 */
+
+.homeSection1 {
+	background-image: url("images/home/homeSection1Bg.png");
+
+	background-color: #222222;
+	padding-top: 0;
+	height: 100vh;
+	right: 0;
+	left: 0;
+	
+    /* Parallax Background Image */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.homeSection1 .gradientFade {
+	background-image: linear-gradient(
+		rgba(0, 0, 0, 0),
+		rgba(34, 34, 34, 0.1),
+    	rgba(34, 34, 34, 1));
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-size: cover;
+	background-position: top;
+}
+
+.homeSection1 .feature {
+    margin: 0;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.homeSection1 .mainTitle {
+	float: left;
+    color: #ffffff;
+    text-align: right;
+
+    text-decoration: none;
+    font-size: 72px;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 2.5%;
+}
+
+/*Home Section1 App Feature*/
+.homeSection1 img {
+    float: right;
+
+    top: 50%;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: 2.5%;
+}
+
+/* Home Section 2 */
+.homeSection2 {
+    background-color: #222222;
+    padding-top: 0;
+    right: 0;
+    left: 0;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 50vh;
+}
+
+.homeSection2 .mainTitle {
+    float: left;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 8%;
+    text-decoration: none;
+    width: 40%;
+    margin: 0;
+}
+
+.homeSection2 h2 {
+    margin: 0;
+}
+
+.homeSection2 .subTitle {
+    float: left;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 0px;
+    margin-top: -2%; /* Get the text closer to the title on the y axis */
+    font-size: 24;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.homeSection2 img {
+    float: right;
+    padding-right: 0%;
+    padding-top: 0%;
+    height: auto;
+    width: auto; 
+    max-width: 50%;
+    padding-left: 2%;
+}
+
+/* Home Section 3 */
+
+.homeSection3 {
+    background-color: #222222;
+    padding-top:20%;
+    min-height: 800px;
+    height: 50vh;
+    right: 0;
+    left: 0;
+    background-size: cover;
+    background-position: bottom;
+    clear: left;
+}
+
+.homeSection3 .mainTitle {
+    float: right;
+    color: #ffffff;
+    text-align: right;
+    padding-right: 8%;
+    text-decoration: none;
+    width: 40%;
+    margin: 0;
+}
+
+.homeSection3 h2 {
+    margin: 0;
+}
+
+.homeSection3 .subTitle {
+    float: right;
+    color: #ffffff;
+    text-align: right;
+    padding-right: 0px;
+    margin-top: -2%; /* Get the text closer to the title on the y axis */
+    font-size: 24;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.homeSection3 img {
+    float: left;
+    padding-left: 0%;
+    padding-top: 0%;
+    height: auto;
+    width: auto; 
+    max-width: 52%;
+}
+
+/* Home Section 4 */
+
+.homeSection4 {
+    background-color: #222222;
+    padding-top: 0;
+    right: 0;
+    left: 0;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 40vh;
+}
+
+.homeSection4 h2 {
+    left: 0;
+    right: 0;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 8%;
+    text-decoration: none;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+}
+
+.homeSection4 p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 24;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.homeSection4 h3 {
+    text-align: center;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.homeSection4 .leftContact {
+    float: left;
+    width: 50vh;
+    padding-left: 20vh;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+.homeSection4 .rightContact {
+    float: right;
+    width: 50vh;
+    padding-right: 20vh;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+.homeSection4 a {
+    color: #42BFFE;
+    text-decoration: none;
+}
+
+.homeSection4 a:hover {
+    color: #38A4DB;
+}
+
+/*
+ *   _______  _______  _______  _______    _______  _______  _______  _______ 
+ *  |   _   ||       ||       ||       |  |       ||   _   ||       ||       |
+ *  |  |_|  ||    _  ||    _  ||  _____|  |    _  ||  |_|  ||    ___||    ___|
+ *  |       ||   |_| ||   |_| || |_____   |   |_| ||       ||   | __ |   |___ 
+ *  |       ||    ___||    ___||_____  |  |    ___||       ||   ||  ||    ___|
+ *  |   _   ||   |    |   |     _____| |  |   |    |   _   ||   |_| ||   |___ 
+ *  |__| |__||___|    |___|    |_______|  |___|    |__| |__||_______||_______|
+ *
+ */
+
+/* Apps Page Home Section 1 */
+
+.appsSection1 {
+    background-image: url("images/apps/appsSection1Bg.png");
+
+    background-color: #222222;
+    padding-top: 0;
+    height: 95vh;
+    min-height: 700px;
+    max-height: 1000px;
+    right: 0;
+    left: 0;
+
+    position: relative;
+    
+    /* Parallax Background Image */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.appsSection1 .gradientFade {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 1),
+        rgba(34, 34, 34, 0.1),
+        rgba(34, 34, 34, 1));
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    background-position: top;
+}
+.appsSection1 .photoCreditButton {
+    margin-bottom: 3.5%;
+}
+
+.appsSection1 .feature {
+    margin: 0;
+
+    height: 100%;
+    /*min-width: 60vw;*/
+    position: absolute;
+    text-align: center;
+
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.appsSection1 .mainTitle {
+    float: left;
+    color: #ffffff;
+    text-align: left;
+
+    text-decoration: none;
+    font-size: 72px;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+    width: 50%;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.appsSection1 .mainTitle h1 {
+    margin: 0;
+    margin-left: 5%;
+}
+
+/*Home Section1 App Feature*/
+.appsSection1 .appFeature {
+    float: left;
+    /*top: 50%;*/
+    width: 50%;
+    margin:0%;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.appsSection1 img {
+    /*top: 50%;*/
+    margin:0;
+    width: 100%;
+    padding-left: auto;
+}
+.appsSection1 .appIcon {
+    margin: 0%;
+}
+
+.appsSection1 .appIcon img {
+    float: left;
+    bottom: 0;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 5vw;
+    height: auto;
+}
+
+/* Apps Page Home Section 2 */
+
+.appsSection2 {
+    background-image: url("images/apps/appsSection2Bg.png");
+
+    background-color: #222222;
+    padding-top: 0;
+    height: 100vh;
+    right: 0;
+    left: 0;
+
+    position: relative;
+    
+    /* Parallax Background Image */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* AppsLabs Page Section 2 */
+.appsSection2 {
+    background-image: url("images/apps/appsSection2Bg.png");
+
+    background-color: #222222;
+    padding-top: 0;
+    height: 95vh;
+    min-height: 700px;
+    max-height: 1000px;
+    right: 0;
+    left: 0;
+
+    position: relative;
+    
+    /* Parallax Background Image */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.appsSection2 .gradientFade {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 1),
+        rgba(34, 34, 34, 0.1),
+        rgba(34, 34, 34, 1));
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    background-position: top;
+}
+.appsSection2 .photoCreditButton {
+    margin-bottom: 3.5%;
+}
+
+.appsSection2 .feature {
+    margin: 0;
+
+    height: 100%;
+    /*min-width: 60vw;*/
+    position: absolute;
+    text-align: center;
+
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.appsSection2 .mainTitle {
+    float: left;
+    color: #ffffff;
+    text-align: left;
+
+    text-decoration: none;
+    font-size: 72px;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+    width: 50%;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.appsSection2 .mainTitle h1 {
+    margin: 0;
+    margin-left: 5%;
+}
+
+/*Home Section1 App Feature*/
+.appsSection2 .appFeature {
+    float: left;
+    /*top: 50%;*/
+    width: 50%;
+    margin:0%;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.appsSection2 img {
+    /*top: 50%;*/
+    margin:0;
+    width: 100%;
+    padding-left: auto;
+}
+.appsSection2 .appIcon {
+    margin: 0%;
+}
+
+.appsSection2 .appIcon img {
+    float: left;
+    bottom: 0;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 5vw;
+    height: auto;
+}
+
+/*
+ *   _______  _______  _______  _______    ______   _______  _______  _______  ___   ___      _______    _______  _______  _______  _______ 
+ *  |   _   ||       ||       ||       |  |      | |       ||       ||   _   ||   | |   |    |       |  |       ||   _   ||       ||       |
+ *  |  |_|  ||    _  ||    _  ||  _____|  |  _    ||    ___||_     _||  |_|  ||   | |   |    |  _____|  |    _  ||  |_|  ||    ___||    ___|
+ *  |       ||   |_| ||   |_| || |_____   | | |   ||   |___   |   |  |       ||   | |   |    | |_____   |   |_| ||       ||   | __ |   |___ 
+ *  |       ||    ___||    ___||_____  |  | |_|   ||    ___|  |   |  |       ||   | |   |___ |_____  |  |    ___||       ||   ||  ||    ___|
+ *  |   _   ||   |    |   |     _____| |  |       ||   |___   |   |  |   _   ||   | |       | _____| |  |   |    |   _   ||   |_| ||   |___ 
+ *  |__| |__||___|    |___|    |_______|  |______| |_______|  |___|  |__| |__||___| |_______||_______|  |___|    |__| |__||_______||_______|
+ *  
+ */
+
+.appsDetails {
+    background-image: url("images/apps/appsSection1Bg.png");
+
+    background-color: #222222;
+    padding-top: 0;
+    height: 100vh;
+    right: 0;
+    left: 0;
+
+    position: relative;
+    
+    /* Parallax Background Image */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.appsDetails .gradientFade {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0.1),
+        rgba(34, 34, 34, 0.5),
+        rgba(34, 34, 34, 1));
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    background-position: top;
+}
+.appsDetails .photoCreditButton {
+    margin-bottom: 3.5%;
+}
+
+.appsDetails .githubButton{
+    /*margin-bottom: 3.5%;*/
+    clear: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.appsDetails .feature {
+    margin: 0;
+    min-width: 60vw;
+    position: absolute;
+    text-align: center;
+
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.appsDetails .mainTitle {
+    float: right;
+    color: #ffffff;
+    text-align: left;
+
+    text-decoration: none;
+    font-size: 72px;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    width: auto;
+    padding-right: auto;
+
+    top: 50%;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.appsDetails .mainTitle h3 {
+    margin: 0;
+    /*float: left;
+    margin-left: 5%;*/
+
+    float: left;
+    bottom: 0;
+    margin-left: 5%;
+    min-height: 75px;
+    height: auto;
+
+}
+
+.appsDetails .mainTitle p {
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+
+    clear: left;
+    margin-left: 5%;
+    padding-top: 5%;
+}
+
+/* App Feature */
+.appsDetails .appFeature {
+    float: left;
+    /*top: 50%;*/
+    margin:0vw;
+    margin-left: 10%;
+}
+
+.appsDetails img {
+
+    float: right;
+    /*top: 50%;*/
+    margin:0vw;
+    width: 100%;
+    padding-left: auto;
+}
+
+.appsDetails .appIcon img {
+    float: left;
+    bottom: 0;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 20%;
+    min-width: 75px;
+    min-height: 75px;
+    height: auto;
+}
+
+/*
+ *   _______  _______  _______  _______  ___      _______  _______  _______    _______  _______  _______  _______ 
+ *  |   _   ||       ||       ||       ||   |    |   _   ||  _    ||       |  |       ||   _   ||       ||       |
+ *  |  |_|  ||    _  ||    _  ||  _____||   |    |  |_|  || |_|   ||  _____|  |    _  ||  |_|  ||    ___||    ___|
+ *  |       ||   |_| ||   |_| || |_____ |   |    |       ||       || |_____   |   |_| ||       ||   | __ |   |___ 
+ *  |       ||    ___||    ___||_____  ||   |___ |       ||  _   | |_____  |  |    ___||       ||   ||  ||    ___|
+ *  |   _   ||   |    |   |     _____| ||       ||   _   || |_|   | _____| |  |   |    |   _   ||   |_| ||   |___ 
+ *  |__| |__||___|    |___|    |_______||_______||__| |__||_______||_______|  |___|    |__| |__||_______||_______|
+ *  
+ */
+
+/* AppsLabs Page Section 1 */
+
+.appsLabsSection1 {
+    background-image: url("images/appslabs/appsLabsSection1Bg.png");
+
+    background-color: #222222;
+    padding-top: 0;
+    height: 100vh;
+    right: 0;
+    left: 0;
+
+    position: relative;
+    
+    /* Parallax Background Image */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.appsLabsSection1 .gradientFade {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0.6),
+        rgba(34, 34, 34, 0.4),
+        rgba(34, 34, 34, 1));
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    background-position: top;
+}
+
+.appsLabsSection1 .mainTitle h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 5%;
+}
+
+.appsLabsSection1 .mainTitle p {
+	margin: 0;
+	text-align: center;
+	padding-left:20%;
+	padding-right:20%;
+}
+
+.appsLabsSection1 .featureHighlights {
+	margin-top: 5%;
+	text-align: center;
+	display: flex;
+}
+
+.appsLabsSection1 > .featureHighlights {
+	flex: 1; /*grow*/
+}
+
+.appsLabsSection1 .featureHighlights .feature {
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.appsLabsSection1 .featureHighlights p strong {
+	font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 700;
+	font-size: 30pt;
+}
+
+.appsLabsSection1 .featureHighlights p {
+	font-size: 23pt;
+}
+
+.appsLabsSection1 .featureHighlights i {
+	font-size: 200%;
+	padding-bottom: 3%;
+	text-align: center;
+	color: #ffffff;
+}
+
+.appsLabsSection1 .photoCreditButton {
+    margin-bottom: 3.5%;
+}
+
+/* AppsLabs Page Section 2 */
+
+.appsLabsSection2 {
+    background-image: url("images/appslabs/appsLabsSection2Bg.png");
+
+    background-color: #222222;
+    padding-top: 0;
+    height: auto;
+    right: 0;
+    left: 0;
+
+    position: relative;
+    
+    /* Parallax Background Image */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.appsLabsSection2 .gradientFade {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 1),
+        rgba(34, 34, 34, 0.2),
+        rgba(34, 34, 34, 1));
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    background-position: top;
+}
+
+.appsLabsSection2 .photoCreditButton {
+    margin-bottom: 0%;
+}
+
+.appsLabsSection2 .mainTitle h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 5%;
+}
+
+.appsLabsSection2 .mainTitle h1 .highlight {
+	font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+/* Apps Labs Pricing Table */
+
+.appsLabsSection2 .pricingTable {
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+
+.appsLabsSection2 .columns {
+    float: left;
+    width: 33.3%;
+    padding: 3%;
+}
+
+.appsLabsSection2 .price {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.appsLabsSection2 .price i {
+    color: #FFD700;
+}
+
+.appsLabsSection2 .price:hover {
+    box-shadow: 0px 0px 100px 0px #FFD700;
+    -webkit-transform: scale(1.05);
+}
+
+.appsLabsSection2 .price .header {
+    background-color: #222222;
+    color: #FFD700;
+    font-size: 25px;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.appsLabsSection2 .price li {
+    padding: 20px;
+    text-align: center;
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.appsLabsSection2 .price .grey {
+    background-color: #222222;
+    font-size: 70px;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.appsLabsSection2 .button {
+    background-color: #42BFFE;
+    border: none;
+    border-radius: 35px;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+    padding: 10px 10%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.appsLabsSection2 .money {
+    font-size: 22pt;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.appsLabsSection2 .monthly {
+    font-size: 20pt;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+    color: #9B9B9B;
+}
+
+/*
+ *   _______  ___      _______  _______    _______  _______  _______  _______ 
+ *  |  _    ||   |    |       ||       |  |       ||   _   ||       ||       |
+ *  | |_|   ||   |    |   _   ||    ___|  |    _  ||  |_|  ||    ___||    ___|
+ *  |       ||   |    |  | |  ||   | __   |   |_| ||       ||   | __ |   |___ 
+ *  |  _   | |   |___ |  |_|  ||   ||  |  |    ___||       ||   ||  ||    ___|
+ *  | |_|   ||       ||       ||   |_| |  |   |    |   _   ||   |_| ||   |___ 
+ *  |_______||_______||_______||_______|  |___|    |__| |__||_______||_______|
+ *  
+ */
+
+.blog {
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.blogSection {
+    background-color: #222222;
+    float: left;
+    width: 75%;
+    padding-bottom: 5%;
+}
+
+
+/* Add a card effect for articles */
+.blogArticle {
+    background-color: #ffffff;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    box-shadow: 0px 0px 40px #858585;
+    border-radius: 8px;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+}
+
+.blogArticle img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.blogArticle figure {
+    margin: 0;
+}
+
+.blogArticle h2 {
+    color: #000000;
+    margin: 0;
+    padding: 2%;
+}
+
+.blogArticle time {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.blogArticle p {
+    color: #000000;
+    margin: 0;
+    padding: 2%;
+}
+
+.blog aside {
+    background-color: #222222;
+    float: left;
+    width: 22%;
+    padding-bottom: 5%;
+    padding-right: 3%;
+}
+
+.blog aside h1 {
+    margin-top: 0;
+}
+
+.blog hr {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.blog aside a {
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 400;
+    color: #42BFFE;
+    text-decoration: none;
+    margin-bottom: 5%;
+    display: table;
+}
+
+.blog aside a:hover {
+    color: #38A4DB;
+}
+
+.blog aside a:visited {
+    color: #FFD700;
+}
